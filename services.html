@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - Bienvenidos el Embargo</title>
+    <style>
+        body {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg');
+            background-size: cover;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            flex: 1;
+        }
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .services-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+        .service-card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            font-size: 18px;
+            margin: 0;
+        }
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <!-- Link to external icons (например, Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Наши услуги</h1>
+        <div class="services-list">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
+                <h2>Репетиция по предварительной записи</h2>
+                <p>350р/ч</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-moon"></i></div>
+                <h2>Ночная репетиция</h2>
+                <p>1000р</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-drum"></i></div>
+                <h2>Аренда железа для ударных</h2>
+                <p>250р</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Контакты:</p>
+        <p>Номер телефона: 89990764614 (Павел)</p>
+        <p>Ссылка на сообщество ВКонтакте: <a href="https://vk.com/embargo23">https://vk.com/embargo23</a></p>
+    </footer>
+</body>
+</html>
